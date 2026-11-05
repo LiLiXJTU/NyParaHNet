@@ -22,7 +22,7 @@ The following list provides upstream project sources for the comparison methods.
 | TransUNet | [Beckschen/TransUNet](https://github.com/Beckschen/TransUNet) | Authors' implementation. |
 | Swin-Unet | [HuCaoFighting/Swin-Unet](https://github.com/HuCaoFighting/Swin-Unet) | Authors' implementation. |
 | MISSFormer | [ZhifangDeng/MISSFormer](https://github.com/ZhifangDeng/MISSFormer) | Authors' implementation. |
-| TransDeepLab | [Repository announced in the paper](https://github.com/rezazad68/transdeeplab) · [Paper](https://arxiv.org/abs/2208.00713) | The announced repository returned HTTP 404 when checked; no third-party replacement is labeled as official here. |
+| TransDeepLab | [Original repository](https://github.com/rezazad68/transdeeplab) · [Accessible fork: MRJanani/transdeeplab_M](https://github.com/MRJanani/transdeeplab_M) · [Paper](https://arxiv.org/abs/2208.00713) | GitHub identifies this fork as a direct fork of the original repository. The original address returned HTTP 404 when checked. The fork is an alternative code source, not the original official repository; its use in our experiments has not been confirmed here. |
 | HiFormer | [amirhossein-kz/HiFormer](https://github.com/amirhossein-kz/HiFormer) | Authors' implementation. |
 | TransCASCADE | [SLDGroup/CASCADE](https://github.com/SLDGroup/CASCADE) | Official CASCADE implementation containing TransCASCADE. |
 | VM-UNet | [JCruan519/VM-UNet](https://github.com/JCruan519/VM-UNet) | Official VM-UNet implementation. |
