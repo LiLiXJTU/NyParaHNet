@@ -155,9 +155,9 @@ if __name__ == "__main__":
             'volume_path': args.volume_path,
             "z_spacing": 1,
             "num_classes": 9,
-            "pth_path": '/data/xb_model/compare_model/ACDC/EMCAD/CASCADE_sy/best.pth',
-            'output_dir': '/home/user/my_code/new_flame/deformableLKA-main/2D/model_out',
-            'list_dir': '/home/user/my_code/new_flame/deformableLKA-main/2D/lists/lists_Synapse'
+            "pth_path": './199.pth',
+            'output_dir': './model_out',
+            'list_dir': './lists/lists_Synapse'
         },
         "ACDC":
         {
@@ -165,9 +165,9 @@ if __name__ == "__main__":
             'volume_path': "/data/xb_dataset/ACDC",
             "z_spacing": 1,
             "num_classes": 4,
-            "pth_path":'/data/xb_model/compare_model/ACDC/EMCAD/PGRUnet/best.pth',
-            'output_dir': '/home/user/my_code/new_flame/deformableLKA-main/2D/model_out_ACDC'
-            ,'list_dir': '/home/user/my_code/deformableLKA-main/2D/lists/lists_ACDC/'
+            "pth_path":'./199.pth',
+            'output_dir': './model_out_ACDC'
+            ,'list_dir': './lists/lists_ACDC/'
         },
     }
     dataset_name = args.dataset
