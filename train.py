@@ -37,7 +37,7 @@ parser.add_argument("--model_dir", type=str, default="/data/xb_model/Synapse", h
 parser.add_argument("--log_dir", type=str, default="/data/xb_train_log", help="log output dir")
 parser.add_argument("--max_iterations", type=int, default=50000, help="maximum epoch number to train")
 parser.add_argument("--num_workers", type=int, default=4, help="num_workers")
-parser.add_argument("--model_name", type=str, default="Nystromnet", help="model_name")
+parser.add_argument("--model_name", type=str, default="NyParaHNet", help="model_name")
 parser.add_argument("--operation", type=str, default="lr0.05,200epoch,batch24", help="operation")
 parser.add_argument("--n_gpu", type=int, default=1, help="total gpu")
 parser.add_argument("--num_gpu", type=int, default=0, help="use which gpu")
